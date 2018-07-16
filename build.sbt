@@ -10,5 +10,5 @@ lazy val defproj = (project in file(".")).settings(
   wartremoverErrors ++= Warts.unsafe,
   scalariformPreferences := scalariformPreferences.value,
   scalacOptions ++= Scalac.options,
-  libraryDependencies ++= Dependencies.defaultDependencies
+  libraryDependencies ++= Dependencies.default
 )
